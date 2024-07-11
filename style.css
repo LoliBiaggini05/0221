@@ -1,0 +1,252 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+/*NAVBAR*/
+header {
+    width: 100%;
+}
+
+.navbar2 {
+    display: grid;
+    grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2%;
+    grid-template-rows: 100%;
+    grid-template-areas: "zona poli uni deporte sociedad quehago";
+    width: 1330px;
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-left: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.deporte{
+    margin-left: 10px;
+
+}
+/* Aplica color solo cuando se pasa el mouse por encima de los spans */
+.navbar2 .H span:hover {
+    color: #43CCFF; 
+}
+
+/* Estilo para mostrar el dropdown solo al hacer hover sobre el span */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+}
+span{
+    font-weight: 600;
+}
+.buscar{
+    margin-top: -8px;
+    width: 50px;
+}
+.stroke{
+    margin-top: 40px;
+    border: 1px solid #D9D9D9;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*SECCIONES*/
+
+.inicio{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+/*BANNER*/
+.rect-qh{
+    margin-left: 84px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    width: 1335px; 
+}
+/*CARDS INICIO*/
+.tarjeta {
+    position: relative;
+    background-color: #232323;
+    width: 319px;
+    height: 368px;
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Color de fondo del overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.tarjeta:hover .overlay {
+    opacity: 1;
+}
+
+.overlay img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajusta el tamaño del PNG para cubrir el overlay */
+}
+
+.tarjeta h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.tarjeta h3 {
+    margin-left: 20px;
+    margin-top: -8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.tarjeta p {
+    color: white;
+    margin-left: 12px;
+    font-size: 13px;
+}
+
+.p1 {
+    margin-top: 25px;
+}
+
+.p2 {
+    margin-top: -10px;
+}
+
+.naranja {
+    color: #f18c30;
+}
+
+.violeta {
+    color: #9747ff;
+}
+
+.amarillo {
+    color: #ffd600;
+}
+
+.orden-tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+    margin-left: 78px;
+    width: 1346px;
+}
+.icono{
+    margin-left: 180px;
+    margin-top: -90px;
+}
+.icono-noche{
+    margin-left: 160px;
+    margin-top: -105px;
+}
+.rect-cards{
+    position: absolute;
+    width: 4px;
+    height: 18px;
+    margin-left: 10px;
+    background-color: #0811FC;
+    margin-top: 25px;
+}
+.rect-cards-arriba{
+    position: absolute;
+    width: 4px;
+    height: 18px;
+    background-color: #0811FC;
+    margin-top: 7px;
+}
+.rect-cards-abajo{
+    position: absolute;
+    width: 4px;
+    height: 18px;
+    background-color: #0811FC;
+    margin-top: -10px;
+}
+#Ramarillo{
+    background-color: #FFD600;
+}
+#Rnaranja{
+    background-color: #F18C30;
+}
+#Rvioleta{
+    background-color: #9747FF;
+}
+/*FOOTER*/
+
+.rect-footer{
+    margin-top: 65px;
+    width: 100%;
+    height: 329px;
+    background-color: #43CCFF;
+}
+.foot-up{
+    margin-left: 80px;
+    padding-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    width: 1335px;
+    
+}
+.foot-secc{
+    display: flex;
+    justify-content:space-between ;
+    width: 1335px;
+    padding-top: 70px;
+    margin-left: 80px;
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+}
+.f{
+    color: white;
+}
+.foot-term{
+    display: flex;
+    justify-content:space-between ;
+    width: 660px;
+    padding-top: 65px;
+    margin-left: 80px;
+    color: #EDEDED;
+    font-weight: 600;
+    font-size: 16px;
+}
+.foot-red{
+    position: absolute;
+    display: flex;
+    justify-content:space-evenly;
+    width:385px;
+    margin-top: -90px;
+    margin-left: 1060px;
+}
+.foot-copy{
+    width: 1347px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    color: #EDEDED;
+    font-weight: 400;
+    font-size: 11px;
+}

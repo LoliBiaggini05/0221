@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleQH.css">
+    <title>¿Qué Hago?</title>
+</head>
+<body>
+     <!--NAVBAR-->
+     <header>
+        <img src="data/banner.png" alt="">
+        <a href="index.html">
+            <img class="logo" src="data/0221-logo.png" alt="">
+        </a>
+     </header>
+     <!--SECCIONES-->
+    <section class="navbar2">
+        <div class="dropdown zona H">
+            <button class="dropdown-item" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="index.html"><span>La Zona</span></a>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">La Plata</a></li>
+                <li><a class="dropdown-item" href="#">Berisso</a></li>
+                <li><a class="dropdown-item" href="#">Ensenada</a></li>
+                <li><a class="dropdown-item" href="#">Provincial</a></li>
+                <li><a class="dropdown-item" href="#">Nacional</a></li>
+            </ul>
+        </div>
+        <div class="poli H">
+            <a><span>Policiales</span></a>
+        </div>
+        <div class="uni H">
+            <a><span>Universidad</span></a>
+        </div>
+        <div class="dropdown deporte H">
+            <button class="dropdown-item" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span>Deportes</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Estudiantes</a></li>
+                <li><a class="dropdown-item" href="#">Gimnasia</a></li>
+                <li><a class="dropdown-item" href="#">Deportes</a></li>
+            </ul>
+        </div>
+        <div class="dropdown sociedad H">
+            <button class="dropdown-item" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span>Sociedad</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Entretenimiento</a></li>
+                <li><a class="dropdown-item" href="#">Tecno</a></li>
+                <li><a class="dropdown-item" href="#">Bagum</a></li>
+            </ul>
+        </div>
+        <div class="quehago H">
+            <span>¿Qué Hago?</span>
+        </div>
+        <div class="buscar">
+            <img src="data/buscadorQH.png" alt="">
+        </div>
+        <div class="linea"></div>
+    </section>
+     <!--ULTIMAS NOVEDADES-->
+     <section>
+        <div>
+            <div class="rect-titulo"></div>
+            <div class="tittle"></div>
+            <h2>ÚLTIMAS NOVEDADES</h2>
+        </div>
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="data/imgcarrusel1.png" class="d-block w-100" alt="Primera imagen">
+              </div>
+              <div class="carousel-item">
+                <img src="data/imgcarrusel2.png" class="d-block w-100" alt="Segunda imagen">
+               </div>
+              <div class="carousel-item">
+                <img src="data/imgcarrusel3.png" class="d-block w-100" alt="Tercera imagen">
+               </div>
+            </div>
+        </div>
+     </section>
+     <!--ESTRENOS-->
+     <section>
+        <div>
+            <div class="rect-titulo" id="REazul"></div>
+            <div class="tittle" id="Tazul"></div>
+            <h2 class="titu">ESTRENOS</h2>
+        </div>
+        <div class="carousel slide carru1" id="carouselEstrenos" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="orden-tarjetas" id="estrenos">
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos1.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>MI VILLANO FAVORITO 4</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover1.png" alt="Overlay">
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos2.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>INMACULATE</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover2.png" alt="Overlay">
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos3.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>TERTAWA</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover3.png" alt="Overlay">
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos4.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>GABRIEL ROLÓN</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover4.png" alt="Overlay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="orden-tarjetas" id="estrenos">
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos5.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>EL ÚLTIMO CONJURO</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover5.png" alt="Overlay">
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos6.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>LA OTRA CARA DE LA LUNA</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover6.png" alt="Overlay">
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos7.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>JULI BELLESE</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover7.png" alt="Overlay">
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <img src="data/cards/estrenos8.png" alt="" width="320">
+                            <div class="rect-cards" id="Razul"></div>
+                            <h2>NACHITO SARALEGUI</h2>
+                            <div class="overlay">
+                                <img src="data/hovers/estrenoshover8.png" alt="Overlay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEstrenos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselEstrenos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+     </section>
+     <!--DONDE COMER-->
+     <section class="donde">
+        <div>
+            <div class="rect-titulo" id="REamarillo"></div>
+            <div class="tittle" id="Tamarillo"></div>
+            <h2 class="titu" id="tituama">¿DÓNDE COMER?</h2>
+        </div>
+        <div class="carousel slide" id="carouselDonde" data-bs-ride="false" data-bs-interval="false">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="orden-tarjetas">
+            <div class="tarjeta">
+                <img src="data/cards/comer1.png" alt="" >
+                <h2>MERE</h2>
+                <h3 class="amarillo">Panadería y café de especialidad</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">Lun a Dom-8 a 21 hs </p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Diag 3 #225, City Bell</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover1.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/comer2.png" alt="" >
+                <h2>EL PERLA PASTA</h2>
+                <h3 class="amarillo">Resto</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">11:00 a 23:00 hs</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Diag 73 y calle 55,La Plata </p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover2.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/comer3.png" alt="" >
+                <h2>BURGER BROS</h2>
+                <h3 class="amarillo">Hamburguesería</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">Lun a Dom-12 a 00 hs</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">10 esq 50, La Plata</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover3.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/comer4.png" alt="" >
+                <h2>MORFI BURGER</h2>
+                <h3 class="amarillo">Inauguración</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">10 a 00 hs</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Plaza Ítala e/ av. 7 y diagonal 77, La Plata</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover4.png" alt="Overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="orden-tarjetas">
+            <div class="tarjeta">
+                <img src="data/cards/comer5.png" alt="" >
+                <h2>LOLI CAFÉ</h2>
+                <h3 class="amarillo">Inauguración</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">18  horas</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Calle 60 esquina 9</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover5.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/comer6.png" alt="" >
+                <h2>FONDA CAFÉ</h2>
+                <h3 class="amarillo">Cafetería de especialidad</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">Lun a Sab-9 a 19 hs</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Calle 27 e/ 43 y 44</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover6.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/comer7.png" alt="" >
+                <h2>RAVAL</h2>
+                <h3 class="amarillo">Bar de tapas</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">Lun a Dom-11 a 01 hs</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Calle 44 esquina 11</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover7.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/comer8.png" alt="" >
+                <h2>CASA TOMADA</h2>
+                <h3 class="amarillo">Wine house</p>
+                <div class="rect-cards-arriba" id="Ramarillo"></div>
+                <p class="p1">Lun a Dom-18 a 02 hs</p>
+                <div class="rect-cards-abajo" id="Ramarillo"></div>
+                <p class="p2">Calle 11 e/ 43 y 44</p>
+                <img  class="icono" src="data/comer.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/comerhover8.png" alt="Overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselDonde" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselDonde" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+     </section>
+     <!--A PASEAR-->
+     <section class="paseo">
+        <div>
+            <div class="rect-titulo" id="REnaranja"></div>
+            <div class="tittle" id="Tnaranja"></div>
+            <h2 class="titu" id="titunara">¡A PASEAR!</h2>
+        </div>
+        <div class="carousel slide" id="carouselPaseo" data-bs-ride="false" data-bs-interval="false">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="orden-tarjetas">
+            <div class="tarjeta">
+                <img src="data/cards/pasear1.png" alt="" >
+                <h2>MODA CIRCULAR</h2>
+                <h3 class="naranja">Paseo de compras</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">11 a 18 horas</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">Barrio Meridiano V (18 y 71)</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover1.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/pasear2.png" alt="" >
+                <h2>WALKING TOUR</h2>
+                <h3 class="naranja">Circuito de mitos y leyendas</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">15 horas</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">Piedra Fundacional de Plaza Moreno</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover2.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/pasear3.png" alt="" >
+                <h2>EXPO DE MINAS</h2>
+                <h3 class="naranja">Paseo de emprendedores</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">12 a 19 horas</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">Mercado 55 (1 y 55)</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover3.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/pasear4.png" alt="" >
+                <h2>KAPLUM</h2>
+                <h3 class="naranja">Circo y humor</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">16 horas</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">República de Los Niños (Camino Gral Belgrano)</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover4.png" alt="Overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="orden-tarjetas">
+            <div class="tarjeta">
+                <img src="data/cards/pasear5.png" alt="" >
+                <h2>LA FERIA DEL PLAYON</h2>
+                <h3 class="naranja">Paseo de compras</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">Sábado y domingo 15:00 horas</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">Playón de la Vieja Estación - 17 y71</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover5.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/pasear6.png" alt="" >
+                <h2>PLAZA MALVINAS</h2>
+                <h3 class="naranja">Paseo de emprendedores</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">Sábados, Domingos y Feriados</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">51 y 19</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover6.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/pasear7.png" alt="" >
+                <h2>BRINDA LA PLATA</h2>
+                <h3 class="naranja">Vinos, coctelerí y gastronomía</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">19:00 a 00:30 hs</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">Centro Cultural Pasaje Dardo Rocha</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover7.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/pasear8.png" alt="" >
+                <h2>MUSEO</h2>
+                <h3 class="naranja">Museo de Ciencias Naturales</p>
+                <div class="rect-cards-arriba" id="Rnaranja"></div>
+                <p class="p1">10:00 a 18:00 hs</p>
+                <div class="rect-cards-abajo" id="Rnaranja"></div>
+                <p class="p2">Paseo del Bosque</p>
+                <img class="icono" src="data/pasear.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/pasearhover8.png" alt="Overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselPaseo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselPaseo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+<p class="linkform">Quiero ser parte</p>
+     </section>
+     <!--EMPRENDEDORES-->
+     <section class="emprende">
+        <div>
+            <div class="rect-titulo" id="RErojo"></div>
+            <div class="tittle" id="Trojo"></div>
+            <h2 class="titu" id="titurojo">EMPRENDEDORES</h2>
+        </div>
+        <div class="carousel slide" id="carouselEmpren" data-bs-ride="false" data-bs-interval="false">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="orden-tarjetas" >
+            <div class="tarjeta" id="cardroja">
+                <img src="data/cards/empren1.png" alt="" width="320">
+                <div class="rect-cards" id="Rrojo"></div>
+                <h2>@MATEANDO</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover1.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/mateando/">@MATEANDO</a></h2>
+                </div>
+            </div>
+            <div class="tarjeta" id="cardroja">
+                <img src="data/cards/empren2.png" alt="" width="320">
+                <div class="rect-cards"id="Rrojo" ></div>
+                <h2>@VELAS.MAGNOLIA_</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover2.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/velas.magnolia_/">@VELAS.MAGNOLIA_</a></h2>
+                </div>
+            </div>
+            <div class="tarjeta" id="cardroja">
+                <img src="data/cards/empren3.png" alt="" width="320">
+                <div class="rect-cards"id="Rrojo"></div>
+                <h2>@BARROCACERAMICA</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover3.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/barrocaceramica/">@BARROCACERAMICA</a></h2>
+                </div>
+            </div>
+            <div class="tarjeta"id="cardroja">
+                <img src="data/cards/empren4.png" alt="" width="320">
+                <div class="rect-cards"id="Rrojo"></div>
+                <h2>@DELEITTELET</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover4.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/deleittelet/">@DELEITTELET</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="orden-tarjetas" >
+            <div class="tarjeta" id="cardroja">
+                <img src="data/cards/empren5.png" alt="" width="320">
+                <div class="rect-cards" id="Rrojo"></div>
+                <h2>@AGUALABOCA.LP</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover5.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/agualaboca.lp/">@AGUALABOCA.LP</a></h2>
+                </div>
+            </div>
+            <div class="tarjeta" id="cardroja">
+                <img src="data/cards/empren6.png" alt="" width="320">
+                <div class="rect-cards"id="Rrojo" ></div>
+                <h2>@VENTURICALZADOS</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover6.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/venturicalzados/">@VENTURICALZADOS</a></h2>
+                </div>
+            </div>
+            <div class="tarjeta" id="cardroja">
+                <img src="data/cards/empren7.png" alt="" width="320">
+                <div class="rect-cards"id="Rrojo"></div>
+                <h2>@FUNDASCC_LP</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover7.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/fundascc_lp/">@FUNDASCC_LP</a></h2>
+                </div>
+            </div>
+            <div class="tarjeta"id="cardroja">
+                <img src="data/cards/empren8.png" alt="" width="320">
+                <div class="rect-cards"id="Rrojo"></div>
+                <h2>@AHIMA.DISENO</h2>
+                <div class="overlay">
+                    <img src="data/hovers/emprenhover8.png" alt="Overlay">
+                <h2 class="hovrojo"><a id="rojo" href="https://www.instagram.com/ahima.diseno/">@AHIMA.DISENO</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselEmpren" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselEmpren" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+<p class="linkform2">Quiero ser parte</p>
+     </section>
+     <!--VIDA NOCTURNA-->
+     <section class="noctur">
+        <div>
+            <div class="rect-titulo" id="REvioleta"></div>
+            <div class="tittle" id="Tvioleta"></div>
+            <h2 class="titu" id="tituviole">VIDA NOCTURNA</h2>
+        </div>
+        <div class="carousel slide" id="carouselVida" data-bs-ride="false" data-bs-interval="false">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <div class="orden-tarjetas">
+            <div class="tarjeta">
+                <img src="data/cards/noche1.png" alt="" >
+                <h2>CIRCUS</h2>
+                <h3 class="violeta">Fiesta electrónica</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">23 a 6 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Estadio Único</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover1.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/noche2.png" alt="" >
+                <h2>AIRBAG</h2>
+                <h3 class="violeta">Recital de rock</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">20 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Estadio Atenas</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover2.png" alt="Overlay">
+                    <button class="nota-button" onclick="irANota()"> LEER NOTA</button>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/noche3.png" alt="" >
+                <h2>REYES DEL TANGO</h2>
+                <h3 class="violeta">Edición de tango</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">20 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Estación Dock Central del  Puerto </p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover3.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/noche4.png" alt="" >
+                <h2>ILOLAND</h2>
+                <h3 class="violeta">Fiesta</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">23:59 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Estadio Uno</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover4.png" alt="Overlay">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="orden-tarjetas">
+            <div class="tarjeta">
+                <img src="data/cards/noche5.png" alt="" >
+                <h2>LUZ GAGGI</h2>
+                <h3 class="violeta">Show en vivo</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">20 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Teatro Ópera</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover5.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/noche8.png" alt="" >
+                <h2>JANGUEO</h2>
+                <h3 class="violeta">Fiesta</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">23:59 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Estadio Uno</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover8.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/noche6.png" alt="" >
+                <h2>EL KUELGUE</h2>
+                <h3 class="violeta">Recital de rock</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">21 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Estadio Atenas</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover6.png" alt="Overlay">
+                </div>
+            </div>
+            <div class="tarjeta">
+                <img src="data/cards/noche7.png" alt="" >
+                <h2>NICO DE TRACY</h2>
+                <h3 class="violeta">Stand-up</p>
+                <div class="rect-cards-arriba" id="Rvioleta"></div>
+                <p class="p1">20 horas</p>
+                <div class="rect-cards-abajo" id="Rvioleta"></div>
+                <p class="p2">Teatro Bar</p>
+                <img class="icono-noche" src="data/vidanoc.png" alt="">
+                <div class="overlay">
+                    <img src="data/hovers/nochehover7.png" alt="Overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselVida" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselVida" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div>
+     </section>
+     <!--CARRUSEL CHICOS-->
+     <section class="chicos">
+        <div>
+            <div class="rect-titulo" id="REchicos"></div>
+            <div class="tittle" id="Tchicos"></div>
+            <h2 class="titu" id="tituchicos">PARA LOS CHICOS</h2>
+        </div>
+        <div class="carousel slide" id="carouselProgramas" data-bs-ride="false" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="orden-cards">
+                        <img class="img1a" src="data/cards/titulochicos1.png" alt="">
+                        <div class="cardkids">
+                            <img class="img1b" src="data/cards/chicos1.png" alt="" >
+                            <h2>ESPECTÁCULO</h2>
+                            <div class="rect-kids-arriba" id="Rchicos"></div>
+                            <p class="pe1">15:00 horas</p>
+                            <div class="rect-kids-abajo" id="Rchicos"></div>
+                            <p class="pe2">Teatro Metro</p>
+                            <p class="pe3">Más información</p>
+                        </div>
+                        <img class="img2a" src="data/cards/titulochicos2.png" alt="">
+                        <div class="cardkids" id="granja">
+                            <img  class="img2b"src="data/cards/chicos2.png" alt="" >
+                            <h2>OBRA DE TEATRO</h2>
+                            <div class="rect-kids-arriba" id="Rgranja"></div>
+                            <p class="pe1">16:00 horas</p>
+                            <div class="rect-kids-abajo" id="Rgranja"></div>
+                            <p class="pe2">Teatro Coliseo Podesta</p>
+                            <p class="pe3">Más información</p>
+                        </div>
+                        <img class="img3a" src="data/cards/titulochicos3.png" alt="">
+                        <div class="cardkids" id="topa">
+                            <img class="img3b"src="data/cards/chicos3.png" alt="" >
+                            <h2>ESPECTÁCULO</h2>
+                            <div class="rect-kids-arriba" id="Rtopa"></div>
+                            <p class="pe1">16:00 horas</p>
+                            <div class="rect-kids-abajo" id="Rtopa"></div>
+                            <p class="pe2">Teatro Coliseo Podesta</p>
+                            <p class="pe3">Más información</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="orden-cards">
+                        <img class="img1a" src="data/cards/titulochicos6.png" alt="">
+                        <div class="cardkids" id="zuki">
+                            <img class="img1b"src="data/cards/chicos6.png" alt="" >
+                            <h2>ESPECTÁCULO</h2>
+                            <div class="rect-kids-arriba" id="Rzuki"></div>
+                            <p class="pe1">16:30 horas</p>
+                            <div class="rect-kids-abajo" id="Rzuki"></div>
+                            <p class="pe2">República de Los Niños ( Camino Gral Belgrano)</p>
+                            <p class="pe3">Más información</p>
+                        </div>
+                        <img class="img2a" src="data/cards/titulochicos4.png" alt="">
+                        <div class="cardkids" id="panam">
+                            <img class="img2b"src="data/cards/chicos4.png" alt="" >
+                            <h2>MUSICAL</h2>
+                            <div class="rect-kids-arriba" id="Rpanam"></div>
+                            <p class="pe1">15:30 horas</p>
+                            <div class="rect-kids-abajo" id="Rpanam"></div>
+                            <p class="pe2">Teatro Coliseo Podesta</p>
+                            <p class="pe3">Más información</p>
+                        </div>
+                        <img class="img3a" src="data/cards/titulochicos5.png" alt="">
+                        <div class="cardkids" id="pepa">
+                            <img  class="img3b"src="data/cards/chicos5.png" alt="" >
+                            <h2>OBRA DE TEATRO</h2>
+                            <div class="rect-kids-arriba" id="Rpepa"></div>
+                            <p class="pe1">15:00 horas</p>
+                            <div class="rect-kids-abajo" id="Rpepa"></div>
+                            <p class="pe2">Teatro Metro</p>
+                            <p class="pe3">Más información</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProgramas" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProgramas" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer class="rect-footer">
+        <div class="foot-up">
+            <a href="https://adepa.org.ar/" target="_blank">
+                <img src="data/adepa.png" alt="">
+            </a>
+            <a href="index.html">
+            <img src="data/0221-logo.png" alt="" width="112" height="64">
+            </a>
+            <a href="http://www.aglaplata.com.ar/" target="_blank">
+                <img src="data/aglp.png" alt="">
+            </a>
+        </div>
+        <div class="foot-secc">
+            <p>La zona</p>
+            <p>Policiales</p>
+            <p>Universidad</p>
+            <p>Deportes</p>
+            <p>Sociedad</p>
+            <a href="QH.html">
+                <p>¿Qué Hago?</p>
+            </a>
+        </div>
+        <div class="foot-term">
+            <p>Términos y Condiciones</p>
+            <p>Políticas de privacidad</p>
+            <p>RSS</p>
+            <P>Contacto</P>
+        </div>
+        <div class="foot-red">
+            <a href="https://www.youtube.com/channel/UCWFylKzypM2c1aRt5SImiuQ" target="_blank">
+                <img src="data/yt.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/company/0221comar/" target="_blank">
+                <img src="data/link.png" alt="">
+            </a>
+            <a href="https://www.instagram.com/0221comar/" target="_blank">
+                <img src="data/ig.png" alt="">
+            </a>
+            <a href="https://x.com/0221comar" target="_blank">
+                <img src="data/tw.png" alt="">
+            </a>
+            <a href="https://www.facebook.com/0221LaPlata" target="_blank">
+                <img src="data/fb.png" alt="">
+            </a>
+        </div>
+        <div class="foot-copy">
+            <p>Registro DNDA Nº: RL -52346008 - Final Contenidos SA - Editor responsable: Carlos E. Marino - Edición Nº 2260 - 22 de junio de 2024 - Afiliado a ADEPA - Calle 49 Nº 609 - La Plata - Contactos: redaccion@0221.com.ar - comercial@0221.com.ar</p>
+        </div>
+    </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleRide');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 3000, 
+            ride: 'carousel', 
+            pause: 'hover', 
+            wrap: true 
+        });
+        function irANota() {
+        window.location.href = "airbag.html";
+    }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
